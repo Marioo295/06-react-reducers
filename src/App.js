@@ -1,5 +1,6 @@
 import Contador from "./components/Contador";
 import ContadorMejorado from "./components/ContadorMejorado";
+import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
     return (
@@ -13,6 +14,8 @@ function App() {
                     rel="noreferrer"
                 >Documentación reducer</a>
             </h3>
+            <hr></hr>
+            <ShoppingCart></ShoppingCart>
             <hr></hr>
             <ContadorMejorado></ContadorMejorado>
             <hr></hr>
