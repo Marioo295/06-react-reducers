@@ -1,4 +1,5 @@
 import Contador from "./components/Contador";
+import ContadorMejorado from "./components/ContadorMejorado";
 
 function App() {
     return (
@@ -12,6 +13,8 @@ function App() {
                     rel="noreferrer"
                 >Documentación reducer</a>
             </h3>
+            <hr></hr>
+            <ContadorMejorado></ContadorMejorado>
             <hr></hr>
             <Contador></Contador>
             <hr></hr>
